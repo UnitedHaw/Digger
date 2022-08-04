@@ -14,7 +14,6 @@ namespace Digger
         {
             CreatureCommand creatureCommand = new CreatureCommand();
 
-
             switch (Game.KeyPressed)
             {
                 case System.Windows.Forms.Keys.Right:
@@ -60,9 +59,7 @@ namespace Digger
     {
         public CreatureCommand Act(int x, int y)
         {
-
             return new CreatureCommand();
-
         }
 
         public bool DeadInConflict(ICreature conflictedObject)
@@ -78,6 +75,52 @@ namespace Digger
         public string GetImageFileName()
         {
             return "Terrain.png";
+        }
+    }
+
+    public class Sack : ICreature
+    {
+        public CreatureCommand Act(int x, int y)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool DeadInConflict(ICreature conflictedObject)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int GetDrawingPriority()
+        {
+            throw new NotImplementedException();
+        }
+
+        public string GetImageFileName()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    public class Gold : ICreature
+    {
+        public CreatureCommand Act(int x, int y)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool DeadInConflict(ICreature conflictedObject)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int GetDrawingPriority()
+        {
+            throw new NotImplementedException();
+        }
+
+        public string GetImageFileName()
+        {
+            throw new NotImplementedException();
         }
     }
 }
