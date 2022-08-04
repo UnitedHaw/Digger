@@ -14,3 +14,20 @@ C:\Users\Kompukter\Desktop\Успех\Sharp\Задачи\Digger\Digger\obj\Debug
 C:\Users\Kompukter\Desktop\Успех\Sharp\Задачи\Digger\Digger\obj\Debug\Digger.csproj.CopyComplete
 C:\Users\Kompukter\Desktop\Успех\Sharp\Задачи\Digger\Digger\obj\Debug\11-digger.exe
 C:\Users\Kompukter\Desktop\Успех\Sharp\Задачи\Digger\Digger\obj\Debug\11-digger.pdb
+C:\Users\Hello World\Desktop\Задачи\DIggerTask\Digger\bin\Debug\Images\Digger.png
+C:\Users\Hello World\Desktop\Задачи\DIggerTask\Digger\bin\Debug\Images\Gold.png
+C:\Users\Hello World\Desktop\Задачи\DIggerTask\Digger\bin\Debug\Images\Monster.png
+C:\Users\Hello World\Desktop\Задачи\DIggerTask\Digger\bin\Debug\Images\Sack.png
+C:\Users\Hello World\Desktop\Задачи\DIggerTask\Digger\bin\Debug\Images\Terrain.png
+C:\Users\Hello World\Desktop\Задачи\DIggerTask\Digger\bin\Debug\11-digger.exe.config
+C:\Users\Hello World\Desktop\Задачи\DIggerTask\Digger\bin\Debug\11-digger.exe
+C:\Users\Hello World\Desktop\Задачи\DIggerTask\Digger\bin\Debug\11-digger.pdb
+C:\Users\Hello World\Desktop\Задачи\DIggerTask\Digger\bin\Debug\nunit.framework.dll
+C:\Users\Hello World\Desktop\Задачи\DIggerTask\Digger\obj\Debug\Digger.csproj.AssemblyReference.cache
+C:\Users\Hello World\Desktop\Задачи\DIggerTask\Digger\obj\Debug\Digger.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hello World\Desktop\Задачи\DIggerTask\Digger\obj\Debug\Digger.Properties.Resources.resources
+C:\Users\Hello World\Desktop\Задачи\DIggerTask\Digger\obj\Debug\Digger.csproj.GenerateResource.cache
+C:\Users\Hello World\Desktop\Задачи\DIggerTask\Digger\obj\Debug\Digger.csproj.CoreCompileInputs.cache
+C:\Users\Hello World\Desktop\Задачи\DIggerTask\Digger\obj\Debug\Digger.csproj.CopyComplete
+C:\Users\Hello World\Desktop\Задачи\DIggerTask\Digger\obj\Debug\11-digger.exe
+C:\Users\Hello World\Desktop\Задачи\DIggerTask\Digger\obj\Debug\11-digger.pdb

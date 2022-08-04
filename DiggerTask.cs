@@ -14,29 +14,40 @@ namespace Digger
         {
             CreatureCommand creatureCommand = new CreatureCommand();
 
-            if (x < Game.MapWidth && y < Game.MapHeight)
-            {
-                creatureCommand.DeltaX = x;
-                creatureCommand.DeltaY = y;
-                creatureCommand.TransformTo = null;
 
-                return creatureCommand;
-            }
-            else
+            switch (Game.KeyPressed)
             {
-                return new CreatureCommand { };
+                case System.Windows.Forms.Keys.Right:
+                    if(creatureCommand.DeltaX + x < Game.MapWidth - 1)
+                    creatureCommand.DeltaX++;
+                    break;
+                case System.Windows.Forms.Keys.Left:
+                    if(creatureCommand.DeltaX + x > 0)
+                    creatureCommand.DeltaX--;
+                    break;
+                case System.Windows.Forms.Keys.Up:
+                    if(creatureCommand.DeltaY + y > 0)
+                    creatureCommand.DeltaY--;
+                    break;
+                case System.Windows.Forms.Keys.Down:
+                    if(creatureCommand.DeltaY + y < Game.MapHeight - 1)
+                    creatureCommand.DeltaY++;
+                    break;
             }
+            return creatureCommand;
         }
 
         public bool DeadInConflict(ICreature conflictedObject)
         {
             string conflictedObjectName = conflictedObject.GetImageFileName();
-            return !conflictedObjectName.Equals("Monster.png");
+            if (conflictedObjectName.Equals("Monster.png"))
+                return true;
+            else return false;
         }
 
         public int GetDrawingPriority()
         {
-            throw new NotImplementedException();
+            return 5;
         }
 
         public string GetImageFileName()
@@ -49,18 +60,19 @@ namespace Digger
     {
         public CreatureCommand Act(int x, int y)
         {
-            return new CreatureCommand { DeltaX = x - Game.MapWidth, DeltaY = y - Game.MapHeight, TransformTo = null };
-            
+
+            return new CreatureCommand();
+
         }
 
         public bool DeadInConflict(ICreature conflictedObject)
         {
-            return false;
+            return true;
         }
 
         public int GetDrawingPriority()
         {
-            throw new NotImplementedException();
+            return 0;
         }
 
         public string GetImageFileName()
